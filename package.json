@@ -1,0 +1,25 @@
+{
+  "name": "@scheigs/sylva",
+  "version": "0.1.0",
+  "description": "Sylva — a forest-green and sage color system as W3C design tokens.",
+  "license": "MIT",
+  "author": "dscheigs",
+  "type": "module",
+  "files": [
+    "tokens",
+    "brand",
+    "preview"
+  ],
+  "exports": {
+    "./primitives": "./tokens/primitives.tokens.json",
+    "./semantic": "./tokens/semantic.tokens.json",
+    "./gnome.svg": "./brand/gnome.svg"
+  },
+  "keywords": [
+    "design-tokens",
+    "dtcg",
+    "color",
+    "palette",
+    "design-system"
+  ]
+}
